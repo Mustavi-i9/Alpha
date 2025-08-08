@@ -1,0 +1,163 @@
+<style>
+
+	#container div::before {
+		font-family: "Font Awesome 5 Free";
+		content: "\f053";
+		vertical-align: middle;
+	}
+	#container div::after {
+		font-family: "Font Awesome 5 Free";
+		content: "\f054";
+		vertical-align: middle;
+	}
+	
+	
+	
+</style>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<!--  font Awesome  --> <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+	<title>.</title>
+<style>
+	*{
+		margin: 0;
+		padding: 0;
+	}
+	body {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center; 
+		font-family: sans-serif;
+		flex-wrap: wrap;
+		column-gap: 1rem;
+		margin: 0 0;
+		background: #0E1F00;
+	} 
+	article {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center; 
+		width: max(340px);
+		margin: 1rem 0;
+		border-radius: 15px ; 
+		background: #056600;
+		color: #E5E5E5;
+	}
+	article h1 {
+		padding: 0.7rem;
+		font-weight: 100;
+		font-family: 'hello_2';
+	}
+	article p {
+		padding: 1rem;
+		font-weight: 300;
+		font-family: 'hello_1';
+		font-size: 1.7rem;
+		line-height: 1.5;
+		
+	}
+	@font-face {
+		font-family:'hello_0';
+		src: url(/font/Alinur Smaroklipi .ttf);
+	}
+	@font-face {
+		font-family:'hello_1';
+		src: url('/dafont/Alinur Bihongo .ttf');
+	}
+	@font-face {
+		font-family:'hello_2';
+		src: url('/dafont/Alinur Banglaborno .ttf');
+	}
+	#container {
+		background: #000000;
+		display: flex;
+		flex-direction: row;
+		justify-content: start;
+		justify-content: space-evenly;
+		align-items: center;
+		flex-wrap: wrap;
+		height: 260px;
+		gap: 5px;
+		font-family: 'Marcellus';
+		border-radius:0 0 1rem 1rem ;
+		padding: 1rem 5px;
+	}
+	#container div {
+		display: flex;
+		justify-content: center;
+		align-items: center; 
+		
+		padding: 0.5rem;	/* flex-grow: 1; */
+		font-size: 1.5rem;
+		background: #005113;
+		border-radius: 7.5px ; 
+		text-align: center;		/* min-width: 100px; */ /* mw */
+		width: min(120px);		/* max-width: 180px; */ /* maw */
+	}
+	#container div::after {
+		font-family: "Font Awesome 5 Free" ;
+		content: "\f054";
+		font-weight: 600;
+		vertical-align: middle;
+		color: #AA6C00;
+	}
+	#container div::before {
+		font-family: "Font Awesome 5 Free" ;
+		content: "\f053";
+		color: #AA6C00;
+		font-weight: 600;
+		vertical-align: middle;
+	}
+	article h1 {
+		font-family:'Marcellus';
+		color: #FFFFFF;
+		font-size: 1.5rem;
+	}
+	@font-face {
+		font-family:'Marcellus';
+		src: url('/dafont/Marcellus.ttf');
+	}
+	i {
+		color: #05A85C;
+	}
+</style> 
+</head>
+<body>
+	
+	<article>
+		<h1><i class="fa-solid fa-code"></i> Semantic Tag </h1>
+		<div id="container">
+			<div>header</div>
+			<div id="pop"><i class="fa-solid fa-pen-nib"></i></div>
+			<div>nav</div>
+			<div>article</div>
+			<div>main</div>
+			<div>aside</div>
+			<div>footer</div>
+			<div>section</div>
+		</div>
+	</article>
+	
+	<article>
+		<h1><i class="fa-solid fa-check"></i> Boiler Pallet </h1>
+		<div id="container">
+			<div>code</div>
+			<div id="pop"></div>
+			<div>kbd</div>
+			<div></div>
+			<div>keygen</div>
+			<div></div>
+			<div>span</div>
+			<div></div>
+		</div>
+	</article>
+	
+	
+</body>
+    </html>
